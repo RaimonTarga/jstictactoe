@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="topInterface">
+        <p id="placeholdertext" class="outputMessage"></p>
+    </div>
+    <div class="board">
+        <div class="row">
+            <div class="tile">
+            </div>
+            <div class="tile">
+            </div>
+            <div class="tile">
+            </div>
+        </div>
+        <div class="row">
+            <div class="tile">
+            </div>
+            <div class="tile">
+            </div>
+            <div class="tile">
+            </div>
+        </div>
+        <div class="row">
+            <div class="tile">
+            </div>
+            <div class="tile">
+            </div>
+            <div class="tile">
+            </div>
+        </div>
+    </div>
+    <div class="bottomInterface">
+        <button onclick="startGame()">RESET</button>
+        <div class="score">
+            <p id="player1score">Player 1 score: 0</p>
+            <p id="player2score">Player 2 score: 0</p>
+            <p id="draws">Draws: 0</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./demo.js"></script>
+</html>
